@@ -5,10 +5,10 @@ The original grayscale image was downloaded from unsplash.com, which offers free
 
 Two QUBO problems:
 (1) flower: 65536-bit QUBO problems with unknown optimal solution.
-    Problem files: flower.json.gz/flower.mm.gz   (two files store the same QUBO problem)
+    Problem file: flower.json.gz
 
 (2) flower-k: 65536-bit QUBO problems with a known optimal solution.
-    Problem files: flower.json.gz/flower.mm.gz   (two files store the same QUBO problem)
+    Problem file: flower.json.gz
     Optimal solution: -225466781
 
 These QUBO problems are designed to obtain binary images that reporduce flower.png/flower-k.png.
