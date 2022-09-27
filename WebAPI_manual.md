@@ -1,6 +1,6 @@
-# QUBO solver Web API manual 
+# ABS2 QUBO solver Web API manual 
 
-- [QUBO solver Web API manual](#qubo-solver-web-api-manual)
+- [ABS2 QUBO solver Web API manual](#abs2-qubo-solver-web-api-manual)
 - [Outline](#outline)
 - [QUBO problem and JSON data format.](#qubo-problem-and-json-data-format)
   - [QUBO problem](#qubo-problem)
@@ -61,9 +61,9 @@
 * Input: an $n\times n$ QUBO matrix $W=(W_{i,j})$ $(0\leq i,j\leq n-1)$．All elements must be integers.
 * Output: $n$-bit vector $X=(x_i)$ $(0\leq i\leq n-1)$．
 * Objective function: The energy $E(X)=\sum_{0\leq i,j\leq n-1}W_{i,j}x_ix_j$ of $X$.
-* A QUBO problem is a problem to find an $n$-bit vector $X$ with minimum energy $E(X)$ over all $2^n$ vectors $X$.
+* A QUBO problem aims to find an $n$-bit vector $X$ with minimum energy $E(X)$ over all $2^n$ vectors $X$.
 * We call QUBO problems with this definition **base** 0, because the indices of $W$ and $X$ start from 0.
-* The base is 0 if these indices start from 1 such that $i$ and $j$ take value in $[1,n]$.  
+* The base is 1 if these indices start from 1 such that $i$ and $j$ take value in $[1,n]$.  
 * This Web API accepts QUBO problems with base 0 and 1.
 
 ### Example of QUBO problem
