@@ -10,4 +10,4 @@
 
 # WebAPI wrappeer
 
-* [WebAPI wrappter](https://nakanocs/ABS2_API): a simple python wrapper for the this QUBO solver web API
+* [WebAPI wrappter](https://github.com/nakanocs/ABS2_API): a simple python wrapper for the this QUBO solver web API
